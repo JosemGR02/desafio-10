@@ -39,6 +39,4 @@ class Contenedor {
         }
     }
 
-
-module.exports = Contenedor;
-
+export {Contenedor};
