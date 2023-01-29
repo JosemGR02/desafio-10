@@ -33,10 +33,10 @@ class Contenedor {
         return this.elementos[elementoIndex];
         }
 
-        eliminar(id) {
-            this.elementos.filter(elemento => elemento.id != id)
-            return { success: true}
-        }
+    eliminar(id) {
+        this.elementos.filter(elemento => elemento.id != id)
+        return { success: true}
     }
+}
 
 export {Contenedor};

@@ -1,8 +1,8 @@
 
 //Imports
 import express from "express";
-import { routerProductos } from "./src/rutas/productos.js";
-import { routerVistas } from "./src/rutas/vistas.js";
+import { routerProductos } from "./rutas/productos.js";
+import { routerVistas } from "./rutas/vistas.js";
 import handlebars from "express-handlebars";
 
 const app = express();
